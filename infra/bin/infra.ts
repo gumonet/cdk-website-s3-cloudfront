@@ -7,6 +7,6 @@ const app = new cdk.App();
 new InfraEstaticStack(app, 'InfraEstaticStack', {
   env: {
     region: 'us-east-1', //Region en donde se va a desplegar tu proyecto
-    account: '450923378041' //Tu número de cuenta de AWS
+    account: '' //Tu número de cuenta de AWS
   }
 });
